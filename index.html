@@ -88,10 +88,34 @@
 
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">I agree to our terms and conditions</label>
+          <label class="form-check-label" for="exampleCheck1">remember me</label>
         </div>
 
-        <button class="btn btn-primary" type="submit">Submit form</button>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Signin
+        </button>
+
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Client successfully connected.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img
+                  src="https://2.bp.blogspot.com/-YK40xJHDgQI/WIINk9lGbhI/AAAAAAAAY04/gSPCBvyAnO8XQttBiNIO2bbrAByGb7XzQCLcB/s1600/Gifs%2Banimados%2BPulando%2B1.gif"
+                  alt="Giff animado" class="w-50">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
