@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen and(max-width:480px) {
+
+   main .container{
+        width: 75%;
+    }
+
+    main .container #btn-check{
+        display: flex!;
+        flex-wrap: wrap;
+    }
+}
