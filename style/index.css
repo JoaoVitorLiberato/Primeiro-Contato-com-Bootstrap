@@ -1,5 +1,14 @@
 *{
     box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#titlePage{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(15, 110, 199);
 }
 
 @media screen and(max-width:480px) {
